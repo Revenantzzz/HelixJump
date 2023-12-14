@@ -1,0 +1,82 @@
+{
+    "name": "HelixRing",
+    "maps": [
+        {
+            "name": "HelixRingRotate",
+            "id": "47fb2617-5fc1-4ecf-953c-f24293d23fe0",
+            "actions": [
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "b8f40cf7-8ca0-4978-b022-eeabd9a08017",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9be6014b-2094-46fc-bdc5-3ace0b1ceba3",
+                    "path": "<Touchscreen>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "GameManager",
+            "id": "c3d8094f-fe4b-4e57-918b-55b52faae8bd",
+            "actions": [
+                {
+                    "name": "Tap",
+                    "type": "Button",
+                    "id": "caf825ab-eaec-4873-ba09-3439bf11ae5a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Start Game",
+                    "type": "Button",
+                    "id": "d53b8b74-68c3-4cec-a562-7715155b55c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c53125db-7751-4536-bc34-183d94b907d8",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "907943e7-3a9f-43f8-8fd7-ddcaeef1d94f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
